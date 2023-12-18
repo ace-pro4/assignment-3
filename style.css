@@ -1,0 +1,291 @@
+:root{
+ font-family: 'Lato', sans-serif;;
+}
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color: #EDEFF2;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 20px;
+    border: 2px solid #E0E6EA;
+    border-left-style: none;
+    border-right-style: none;
+    border-top-style: none;
+    height: 70px;
+    width: 1200px;
+}
+
+.logo{
+    width: 200px;
+    height: 40px;
+}
+
+nav{
+    margin-top: 12px;
+    font-weight: 700;
+    letter-spacing: -0.01px;
+}
+
+nav ul li{
+    display: inline;
+    padding: 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #1D2C3C;
+}
+
+nav ul li a:hover{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+
+section.main{
+    display: flex;
+    width: 756px;
+    margin: auto;
+}
+
+section.one{
+    width: 462px;
+    padding: 20px 0px;
+    background-color: #FFFFFF;
+}
+
+h1{
+    color: #1D2C3C;
+    font-size: 30px;
+    padding: 0 15px 20px 15px;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+span.dopple{
+    color: #548BC5;
+    display: inline-block;
+    border: 2px solid #548BC5;
+    width: 20px;
+    border-radius: 10px;
+    padding-left: 5px;
+}
+.pone, .ptwo{
+    padding:20px 15px ;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.16px;
+    color: #1D2C3C;
+
+}
+
+form.first{
+    border: 1.5px solid #F5F7FA;
+    border-left-style: none;
+    border-right-style: none;
+}
+
+div.labelone, div.labeltwo, div.labelthree, div.labelfour{
+    display: flex;
+    flex-direction: column;
+}
+
+div.labelthree
+{
+    padding: 10px 15px 30px 15px;
+}
+
+
+div.labelchief{
+    display: flex;
+    gap: 1.5rem;
+    padding: 0 15px;
+}
+
+input.same{
+    width: 200px;
+    height: 30px;
+    border: 1px solid #EDEFF2;
+    border-radius: 4px;
+    background-color: #EDEFF2;
+    padding-left: 10px;
+    color: #646E7A;
+    font-size: 14px;
+}
+
+input.diff{
+    width:300px;
+    height: 30px;
+    border: 1px solid #EDEFF2;
+    border-radius: 5px;
+    background-color: #EDEFF2;
+    padding-left: 10px;
+    color: #646E7A;
+    font-size: 14px
+}
+
+
+
+form.second{
+    background-color: ;
+}
+
+div.labelfour{
+   padding: 0 15px 30px 15px ; 
+   border: 1.5px solid #F5F7FA;
+   border-left-style: none;
+   border-right-style: none;
+   border-top-style: none;
+}
+
+input.off{
+    height: 30px;
+    border-radius: 5px;
+    background-color: #EDEFF2;
+    border: 1px solid #EDEFF2;
+    padding-left: 10px;
+    color: #646E7A;
+}
+
+
+
+button{
+    margin: 20px 15px;
+    height: 45px;
+    width: 429px;
+    border-radius: 5px;
+    background-color: #038E7D;
+    border: 1px solid #038E7D;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -0.396px;
+    color: #fff;
+}
+
+.pthree{
+    text-align: center;
+}
+
+img.question{
+    margin: -4px 6px;
+    
+}
+
+img.powered{
+    margin: 15px 185px;
+}
+
+h5{
+ font-size: 30px;
+ font-weight: 700;
+ letter-spacing: -0.01;
+}
+
+sub, sup{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -0.015px;
+}
+.super{
+    font-size: 60px;
+    font-weight: 300;
+}
+
+.pfive{
+margin-top: 15px;
+margin-bottom: 30px;
+color: #FFF;
+font-family: Lato;
+font-size: 16px;
+font-style: italic;
+font-weight: 400;
+line-height: 24px; 
+letter-spacing: -0.008px;
+}
+
+.ganger{
+    margin: -7px 1px;
+}
+
+.psix, .pseven, .peight{
+    padding: 10px 0px;
+    letter-spacing: -0.008px;
+}
+
+.container .fake a{
+    font-weight: 700;
+    font-style: italic;
+    letter-spacing: -0.008px;
+    color: #FFF;
+}
+.pnine{
+    padding-top: 25px;
+    padding-bottom: 10px;
+}
+
+div.container{
+    background-color:#1179BF;
+    display: flex;
+    flex-direction: column;
+    width: 290px;
+    color: #fff;
+}
+
+section.fake{
+    padding: 25px 35px 0 35px;
+}
+
+section.og{
+    margin: 0px 35px 5px 33px;
+}
+
+.pten{
+    border: 1.5px solid darkgray;
+    margin-top: 15px ;
+    margin-bottom: 17px;
+    padding: 8px 6px  0px 0px;
+    color: #FFF;
+    font-family: Lato;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 24px; 
+    letter-spacing: -0.009px;
+    border-left-style: none;
+    border-right-style: none;
+    border-bottom-style: none; 
+}
+
+.bit{
+    border-radius: 20px;
+    margin: -15px 0px;
+}
+
+.eleven{
+    padding: 8px 9px;
+    font-weight: 700;
+    letter-spacing: -0.008;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    padding: 15px 0px;
+}
+footer p{
+    color: #636B6F;
+}
+
+footer a{
+    color: #31708F;
+}
